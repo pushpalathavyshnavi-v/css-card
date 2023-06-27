@@ -1,0 +1,35 @@
+body
+{
+  padding:5px;
+  background-color:#cdd;
+  
+}
+.card
+{
+  background-color:white;
+  text-decoration:none;
+  color:black;
+  display:inline-block;
+  width:265px;
+  height:380px;
+ border:2px solid;
+ margin:10px;
+ }
+img
+{
+  height:200px;
+}
+.text-area
+{
+  margin:3px;
+  padding:8px;
+  transitipon:500ms box-shadow ease-in-out ;
+}
+.card:hover
+{
+  box-shadow:8px 5px 0 gray; 
+}
+.card:hover .title
+{
+  text-decoration:underline;
+}
